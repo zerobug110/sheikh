@@ -464,6 +464,10 @@ a img.aligncenter {
     HEADER
 -------------------------------------------------------------------*/
 
+.nav-logo {
+    width: 4rem;
+    height: 4rem;
+}
 
 .top-navbar .bg-light{
 	background: #4c5a7d !important;
@@ -1344,7 +1348,8 @@ a img.aligncenter {
 }
 
 .testi-meta img{
-	display: inline-block !important; 
+    display: inline-block !important; 
+    
 }
 #testimonials{
 	position: relative;
@@ -1365,7 +1370,9 @@ a img.aligncenter {
 }
 
 .testimonial img {
-    max-width: 55px;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
 }
 
 .testimonial small {
@@ -1757,9 +1764,19 @@ a img.aligncenter {
 
 .post-media {
     position: relative;
+    
 }
 
+.about-img {
+    width: 30rem;
+    height: 30rem;
+}
+.fatima-img {
+    width: 100%;
+    height: 100%;
+}
 .post-media img {
+    height: 20rem;
     width: 100%;
 }
 
@@ -2858,7 +2875,7 @@ body.host_version .first-section .effect-1.slide-btn::after{
 	color: #fff;
 	font-weight: 600;
 	text-transform: capitalize;
-	padding-top: 11%;
+	padding-top: 20%;
 	font-size: 48px;
 	line-height: 0px;
 }
@@ -2866,7 +2883,7 @@ body.host_version .first-section .effect-1.slide-btn::after{
 span.m_1 {
     font-weight: 300;
     font-size: 20px;
-    line-height: 1.5em;
+    line-height: 1.8;
 	display: block;
 }
 
@@ -3283,7 +3300,7 @@ span.m_1 {
 
 .img-bg-01{
 	background: url(images/img-01.jpg) no-repeat center;
-	background-size: cover;
+    background-size: cover;
 }
 .img-bg-02{
 	background: url(images/img-02.jpg) no-repeat center;
@@ -3301,7 +3318,8 @@ span.m_1 {
 
 .our-team{
     text-align: center;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 .1rem .2rem rgba(0, 0, 0, 0.6);
 }
 .our-team .team-img{
     overflow: hidden;
@@ -3309,7 +3327,7 @@ span.m_1 {
 }
 .our-team .team-img img{
     width: 100%;
-    height: auto;
+    height: 20rem;
 }
 .our-team .social{
     width: 100%;
@@ -3869,6 +3887,7 @@ a.link-style3 {
 .course-meta-bot ul li:hover{
 	color: #eea412;
 }
+
 
 
 

@@ -1,2 +1,32 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+
+.sponsor-gallery {
+    max-width: 100rem;
+    margin: 5rem auto;
+    padding: 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.sponsor-gallery-box {
+    height: 20rem;
+    box-shadow: 0 .1rem .2rem rgba(0,0,0, .4) ;
+
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-section {
+    background-image: url(../images/banner.jpg);
+}
+
+.all-title-box {
+    background-image: linear-gradient(to right, rgba(0,0,0, .8), rgba(0,0,0, .8)), url(../images/banner.jpg);
+    height: 100vh;
+}
